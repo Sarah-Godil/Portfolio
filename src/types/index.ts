@@ -23,10 +23,8 @@ export interface HeroProps {
 }
 
 export interface ExperienceProps {
-  company: string;
-  position: string;
-  startDate: string;
-  endDate: string;
+  projectName: string;
+  Skills: string[];
   summary: string | string[];
 }
 

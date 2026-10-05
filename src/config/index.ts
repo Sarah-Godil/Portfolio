@@ -32,7 +32,7 @@ export const SITE_CONTENT: SiteContent = {
   experience: [
     {
       projectName: "University Carpooling Application",
-      Skills: ["Java", "OOP", "Supabase", "React", "REST APIs"],
+      Skills: ["Java ", "OOP ", "Supabase ", "React ", "REST APIs"],
       summary: [
         "Designed and engineered a modular carpooling system utilizing Object-Oriented Programming (OOP) principles and robust design patterns to ensure clean, maintainable architecture.",
         "Integrated Supabase for secure user authentication, real-time database management, and cloud backend communication layers",
@@ -41,7 +41,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       projectName: "B2B Global Trading Platform",
-      Skills: [".NET", "C#", "html", "css", "javascript", "REST APIs"],
+      Skills: [".NET ", "C# ", "html ", "css ", "javascript ", "REST APIs"],
       summary: [
         "Architected a business-to-business global trading concept featuring a functional frontend and a connected backend architecture.",
         "Implemented and consumed REST APIs to facilitate seamless data communication, product fetching, and state management between client and server layers.",
@@ -50,7 +50,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       projectName: "FlappyPlane Web Game",
-      Skills: ["Java", "OOP", "Supabase", "React", "REST APIs"],
+      Skills: ["HTML ", "CSS ", "JavaScript"],
       summary: [
       "Created a 2D side-scroller game using vanilla JavaScript for physics and collision logic.",
       "Built a local storage system to calculate and persist the highest score on the localhost."
@@ -84,7 +84,7 @@ export const SITE_CONTENT: SiteContent = {
     description: `
       Hi, I’m Sarah Godil, an aspiring Software Engineer with a passion for creating innovative solutions. With a strong foundation in both mobile and web development, as well as front-end web technologies and backend development.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      I am open to new opportunities and challenges that allow me to grow as a developer and contribute to meaningful projects. I am eager to collaborate with like-minded individuals and teams to bring ideas to life and make a positive impact through technology.
     `,
     image: "/Sarah-big.jpeg",
   },

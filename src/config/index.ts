@@ -1,23 +1,21 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Sarah Godil — Aspiring Software Engineer",
+  author: "Sarah Godil",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Software Engineer based in Karachi, Pakistan. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/Sarah-small.jpeg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/sarah-godil-4b719a2a4/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BI5r7pYXUQP%2Bj81H2pydBIA%3D%3D" },
+    { text: "Github", href: "https://github.com/Sarah-Godil" },
+
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,11 +23,11 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Sarah Godil",
+    specialty: "Aspiring Software Engineer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Developer based in Karachi, Pakistan. I have worked in web and mobile application development and maintenance and currently pursuing a career in software engineering.",
+    email: "sarahgodil07@email.com",
   },
   experience: [
     {
@@ -64,34 +62,34 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "B2B E-commerce App",
+      summary: "A comprehensive e-commerce solution for businesses.",
+      linkPreview: "https://global-trade-center.onrender.com/",
+      linkSource: "https://github.com/Sarah-Godil/Global-Trade-Center",
+      image: "/b2b.jpg",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "Youtube Clone",
+      summary: "A video streaming platform that replicates YouTube's core features.",
+      linkPreview: "https://youtube-clone-umber-two-52.vercel.app/",
+      linkSource: "https://github.com/Sarah-Godil/YoutubeClone",
+      image: "/youtube-clone.jpg",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Flappy Bird Clone",
+      summary: "A mobile game that replicates the features of Flappy Bird",
+      linkPreview: "https://flappy-plane-lilac.vercel.app/",
+      linkSource: "https://github.com/Sarah-Godil/FlappyPlane",
+      image: "/flappy-bird-clone.jpg",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I’m Sarah Godil, an aspiring Software Engineer with a passion for creating innovative solutions. With a strong foundation in both mobile and web development, as well as front-end web technologies and backend development.
 
       Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/sarah-big.jpeg",
   },
 };
 
